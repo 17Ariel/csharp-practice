@@ -6,6 +6,16 @@ namespace basics
     class Program
     {
 
+        static void msg()
+        {
+            Console.WriteLine("Hello");
+        }
+
+        static int addNum(int numb1)
+        {
+            return numb1 * numb1;
+        }
+
         static void Main(string[] args)
         {
 
@@ -159,28 +169,34 @@ namespace basics
             //     Console.WriteLine(y);
             // }
 
-            string[] names = { "Howard", "Michael", "Tim" };
+            // string[] names = { "Howard", "Michael", "Tim" };
 
             // for (int index = 0; index < names.Length; index++)
             // {
             //     Console.WriteLine(names[index]);
             // }
 
-            foreach (string name in names)
-            {
-                // Console.WriteLine(name);
-                Array.Sort(names);
-                Console.WriteLine(name);
+            // foreach (string name in names)
+            // {
+            //     // Console.WriteLine(name);
+            //     Array.Sort(names);
+            //     Console.WriteLine(name);
 
 
-            }
+            // }
 
-            int[] numbers = { 4, 9, 2 };
+            // int[] numbers = { 4, 9, 2 };
 
-            Console.WriteLine(numbers.Average());
-            Console.WriteLine(numbers.Max());
-            Console.WriteLine(numbers.Min());
-            Console.WriteLine(numbers.Sum());
+            // Console.WriteLine(numbers.Average());
+            // Console.WriteLine(numbers.Max());
+            // Console.WriteLine(numbers.Min());
+            // Console.WriteLine(numbers.Sum());
+
+
+            // msg();
+
+            // Console.WriteLine(addNum(7));
+
 
 
 
